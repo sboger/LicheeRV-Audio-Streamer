@@ -6,7 +6,7 @@ I created this in a few hours as a test of gemini-cli. I coded no part of this. 
 
 ## Dependencies
 
-You need to have build-essentials and the ALSA library development package installed to build this app. On Debian you can install it with:
+You build this on the LicheeRV Nano. You need to have build-essentials and the ALSA library development package installed. On Sophgo sg200x Debian you can install it with:
 
 ```bash
 sudo apt-get update

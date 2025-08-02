@@ -15,9 +15,10 @@ sudo apt-get install build-essential libasound2-dev
 
 ## Building
 
-To build the application, simply run `make`:
+To build the application, run:
 
 ```bash
+make clean  # to erase the binary that comes with the repo
 make
 ```
 

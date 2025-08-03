@@ -56,6 +56,8 @@ To do so in VLC:
 
 You should now be able to hear the audio from the microphone.
 
+Note: On OSX in Chrome, I can also load the ip directly in the browser and get a player.
+
 ## How it works
 
 The server listens for incoming TCP connections on port 8080. When a client connects, it forks a new process to handle the client. This child process opens the default ALSA capture device (`hw:0,0`), sets the audio parameters (48kHz, 16-bit Little Endian, mono), and starts reading audio data.

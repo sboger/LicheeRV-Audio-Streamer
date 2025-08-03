@@ -2,7 +2,7 @@
 
 
 
-I created this in a few hours as a test of gemini-cli. I coded no part of this. I only altered this paragraph by hand. Everything else was created by gemini-cli. My coding system is a mac air, the compile system is a LicheeRV Nano. https://www.amazon.com/dp/B0DGL82524 running https://github.com/scpcom/sophgo-sg200x-debian. This is a minimal C application (11k) that captures audio from the mems microphone using ALSA and streams it over HTTP. The audio is streamed as raw, lossless LPCM data.
+I created this in a few hours as a test of gemini-cli. I coded no part of this. I only altered this paragraph by hand. Everything else was created by gemini-cli. My coding system is a mac air, the compile system is a LicheeRV Nano (https://www.amazon.com/dp/B0DGL82524) running Debian 13 Trixie (https://github.com/scpcom/sophgo-sg200x-debian). This is a minimal C application (11k) that captures audio from the mems microphone using ALSA and streams it over HTTP. The audio is streamed as raw, lossless LPCM data.
 
 ## Dependencies
 
@@ -51,7 +51,7 @@ You can listen to the audio stream using a media player that supports raw LPCM s
 To do so in VLC:
 1. Open VLC.
 2. Go to "Media" -> "Open Network Stream...".
-3. Enter the URL of the stream: `http://<server_ip>:8080`, where `<server_ip>` is the IP address of the machine running the `audio_streamer`. If you are running the client on the same machine as the server, you can use `localhost` or `122.0.0.1`.
+3. Enter the URL of the stream: `http://<server_ip>:8080`, where `<server_ip>` is the IP address of the machine running the `audio_streamer`.
 4. Click "Play".
 
 You should now be able to hear the audio from the microphone.
